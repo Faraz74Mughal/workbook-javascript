@@ -2017,3 +2017,29 @@ let {hi, bye} = await import('./say.js');
 hi();
 bye();
 ```
+
+### Importing Promises
+
+```
+import("./math").then(math => {
+  console.log(math.add(16, 26));
+});
+```
+
+### Reduce Method
+
+```
+array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
+```
+
+```
+var array = [36, 25, 6, 15];
+
+array.reduce(function(accumulator, currentValue) {
+  return accumulator + currentValue;
+}, 0); // 36 + 25 + 6 + 15 = 82
+```
+
+```
+let sum = arr.reduce((curr, index) => curr + index);
+```
