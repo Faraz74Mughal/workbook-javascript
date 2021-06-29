@@ -20,8 +20,24 @@
 ## JS - Hello world
 
 ```
+console.log("hello world");
+console.error("");
+console.info("");
+console.warn("");
+console.trace();
+console.table([{},{}]);
+console.time("abc");
+console.timeEnd("abc");
+```
+
+```
+console.log(`%c Hello`,`color:orange;font-size:20px;font-weight:bold;font-family:Comic Sans MS;`)
+```
+
+```
 alert("hello word");
-console.log("hello world);
+confirm("Do you agree ?");
+prompt("Write downyour answer here ...");
 ```
 
 ## Comments
@@ -2042,4 +2058,22 @@ array.reduce(function(accumulator, currentValue) {
 
 ```
 let sum = arr.reduce((curr, index) => curr + index);
+```
+
+### Every / Some
+
+```
+const exams = [80, 98, 92, 78, 77, 90, 89, 84, 81, 77]
+exams.every(score => score >= 75) // Say true if all exam components are greater or equal than 75
+```
+
+```
+const age= [2,7,12,17,21];
+
+age.some(function(person){
+return person > 18;}); //true
+
+//es6
+const age= [2,7,12,17,21];
+age.some((person)=> person>18); //true
 ```
