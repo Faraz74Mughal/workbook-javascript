@@ -14,6 +14,9 @@ const y = 125
 // Boolean
 const z = false
 
+// Date
+const c = new Date()
+
 // Object
 const a = { name: 'john', age: 22 }
 
@@ -37,6 +40,9 @@ var y = 125
 
 // Boolean
 let z = false
+
+// Date
+var c = new Date()
 
 // Object
 var a = { name: 'john', age: 22 }
