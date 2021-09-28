@@ -19,6 +19,11 @@ const a = { name: 'john', age: 22 }
 
 // Array
 const b = [1, 2, 3, 4, 5, 6]
+
+// Function
+const doSomething = () => {
+  return 'Hello World'
+}
 ```
 
 `Variables`
@@ -38,6 +43,11 @@ var a = { name: 'john', age: 22 }
 
 // Array
 let b = [1, 2, 3, 4, 5, 6]
+
+// Function
+let doSomething = () => {
+  return 'Hello World'
+}
 ```
 
 `let` vs `var`
