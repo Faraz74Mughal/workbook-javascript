@@ -22,6 +22,8 @@ var a = { name: 'john', age: 22 }
 
 `let` vs `var`
 
+`var` variables are accessible outside ther scope
+
 ```javascript
 function action() {
   let a = 10
