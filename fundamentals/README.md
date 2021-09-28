@@ -1,3 +1,1 @@
-# Javascript
-
-The Language of the Browsers
+# Javascript - Fundamentals
