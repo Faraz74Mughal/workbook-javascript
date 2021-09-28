@@ -5,19 +5,39 @@
 `Constants`
 
 ```javascript
+// String
 const x = 'hello word'
+
+// Number
 const y = 125
+
+// Boolean
 const z = false
+
+// Object
 const a = { name: 'john', age: 22 }
+
+// Array
+const b = [1, 2, 3, 4, 5, 6]
 ```
 
 `Variables`
 
 ```javascript
+// String
 let x = 'hello word'
+
+// Number
 var y = 125
+
+// Boolean
 let z = false
+
+// Object
 var a = { name: 'john', age: 22 }
+
+// Array
+let b = [1, 2, 3, 4, 5, 6]
 ```
 
 `let` vs `var`
