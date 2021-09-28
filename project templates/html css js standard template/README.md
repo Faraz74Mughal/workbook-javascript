@@ -54,13 +54,13 @@ window.onload = Launch
 git clone https://github.com/ZaeemTarrar/workbook-javascript.git ; ; rm -rf workbook-javascript/.git ; cp -r "workbook-javascript/project templates/html css js standard template/" "./workbook-javascript html css js standard template" ; rm -rf "workbook-javascript" ; cd "workbook-javascript html css js standard" ;
 ```
 
-**MAC** `workbook-css3 bootstrap cdn template/*`
+**MAC** `workbook-javascript html css js standard template/*`
 
 ```cmd
 git clone https://github.com/ZaeemTarrar/workbook-javascript.git ; ; rm -rf workbook-javascript/.git ; cp -r "workbook-javascript/project templates/html css js standard template/" "./workbook-javascript html css js standard template" ; rm -rf "workbook-javascript" ; cd "workbook-javascript html css js standard" ;
 ```
 
-**WINDOWS** `workbook-css3 bootstrap cdn template/*`
+**WINDOWS** `workbook-javascript html css js standard template/*`
 
 ```cmd
 git clone https://github.com/ZaeemTarrar/workbook-javascript.git && cd workbook-javascript && del /Q .git && mkdir "../zaeem-javascript" && move ".\project templates\html css js standard template\*" "..\zaeem-javascript" && cd ../ && rmdir /s /q "workbook-javascript" && rename "zaeem-javascript" "workbook-javascript html css js standard template" && cd "workbook-javascript html css js standard template"
