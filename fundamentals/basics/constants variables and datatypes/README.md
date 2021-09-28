@@ -1,6 +1,6 @@
 # Javascript - Fundamentals - Basics
 
-## Constants and Variables
+## Constants, Variables and DataTypes
 
 `Constants`
 
