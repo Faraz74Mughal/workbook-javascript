@@ -54,7 +54,8 @@ switch(age) {
             console.log("golden age")
         }
         break
-    default: {
+    default: 
+    {
         console.log("Extra Life Time")
     }
 }
