@@ -94,3 +94,25 @@ first( second() )
   console.log("Helo world")
 })()
 ```
+
+**Function returning Function**
+
+```javascript
+const makeGreet = (type) => {
+  return (name) => {
+    return () => {
+      if( type == 'morning' ) {
+        return `Good Morning, ${name} !`
+      } else {
+        return `Good Night, ${name} !`
+      }
+    }
+  }
+}
+
+const Greeter = makeGreet("night");
+const Greet = Greeter("james")
+const GreetingSentence = Greet()
+
+console.log( GreetingSentence )
+```
