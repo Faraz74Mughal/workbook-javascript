@@ -55,7 +55,7 @@ let b = 2
 const x = a / b
 ```
 
-**Percentage** `/`
+**Percentage** `%`
 
 ```javascript
 let a = 10
@@ -63,4 +63,14 @@ let b = 3
 
 // Division Remainder | Modulus
 const x = a % b
+```
+
+**Double Sterek** `**`
+
+```javascript
+let a = 10
+let b = 2
+
+// Power | Exponent
+const x = a ** b
 ```
