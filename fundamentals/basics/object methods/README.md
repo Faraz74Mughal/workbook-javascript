@@ -53,3 +53,15 @@ const ball = {
 ```javascript
 let descriptor = Object.getOwnPropertyDescriptor(user, 'name');
 ```
+
+**Create/Get/Set Object Prototypes**
+
+```javascript
+let rabbit = Object.create(animal);
+
+alert(rabbit.eats); // true
+
+alert(Object.getPrototypeOf(rabbit) === animal); // true
+
+Object.setPrototypeOf(rabbit, {}); // change the prototype of rabbit to {}
+```
