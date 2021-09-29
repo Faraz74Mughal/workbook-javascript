@@ -142,7 +142,11 @@ function Book(type, author) {
     }
 }
 
+Book.prototype.getType = function() {
+  return `Book type is ${this.type}`;
+}
+
 var book = new Book("Fiction", "Peter King");
 
-console.log(book.getDetails());
+console.log(book.getDetails(), book.getType());
 ```
