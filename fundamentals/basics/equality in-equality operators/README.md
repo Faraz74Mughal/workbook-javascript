@@ -2,6 +2,7 @@
 
 ## Equality and InEquality Operators
 
+**Conditional Implementations**
 
 ```javascript
 let a = true
