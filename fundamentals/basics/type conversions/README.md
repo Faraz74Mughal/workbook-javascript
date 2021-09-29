@@ -2,6 +2,13 @@
 
 ## Type Conversions
 
+**Check DataType**
+
+```javascript
+name = "daanzo"
+console.log(typeof(name))
+```
+
 **String to Number**
 
 ```javascript
