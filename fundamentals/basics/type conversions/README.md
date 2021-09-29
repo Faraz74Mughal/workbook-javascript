@@ -9,6 +9,13 @@ let x = '28'
 let y = Number(x)
 ```
 
+**String to Boolean**
+
+```javascript
+let x = 'false'
+let y = Boolean(x)
+```
+
 **Number to Boolean**
 
 ```javascript
@@ -20,5 +27,12 @@ let y = Boolean(x)
 
 ```javascript
 let x = 28
+let y = String(x)
+```
+
+**Boolean to String**
+
+```javascript
+let x = true
 let y = String(x)
 ```

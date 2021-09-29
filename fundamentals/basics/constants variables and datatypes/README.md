@@ -48,7 +48,11 @@ var c = new Date()
 var a = { name: 'john', age: 22 }
 
 // Array
-let b = [1, 2, 3, 4, 5, 6]
+let b = [
+  "apples",
+  "mangoes",
+  "oranges"
+]
 
 // Function
 let doSomething = () => {
