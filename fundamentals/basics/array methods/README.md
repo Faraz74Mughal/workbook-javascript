@@ -102,4 +102,22 @@ array.reduce(function(accumulator, currentValue) {
 }, 0); // 36 + 25 + 6 + 15 = 82
 ```
 
+**Every / Some**
+
+```javascript
+const exams = [80, 98, 92, 78, 77, 90, 89, 84, 81, 77]
+const result = exams.every(score => score >= 75) // Say true if all exam components are greater or equal than 75
+```
+
+```javascript
+const age= [2,7,12,17,21];
+
+age.some(function(person){
+return person > 18;}); //true
+
+//es6
+const age= [2,7,12,17,21];
+age.some((person)=> person>18); //true
+```
+
 
