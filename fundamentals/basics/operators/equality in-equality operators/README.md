@@ -29,10 +29,3 @@ if(a !== b) {
     console.log("`a` and `b` are not equal and have same datatype")
 }
 ```
-
-**Not Operator**
-
-```javascript
-// Not True = False
-let x = !(true)
-```
