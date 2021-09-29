@@ -14,6 +14,7 @@ console.log(typeof(name))
 ```javascript
 let x = '28'
 let y = Number(x)
+let z = +x
 ```
 
 **String to Boolean**

@@ -26,3 +26,13 @@ if( a < b ) {
     console.log("`a` is lesser than or equals to `b`")
 }
 ```
+
+**Word Comparisons**
+
+```javascript
+let x = "mandy"
+let y = "billy"
+
+// Compares in Alphabetic Order
+console.log( x > y )
+```
