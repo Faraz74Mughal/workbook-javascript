@@ -5,7 +5,7 @@
 **Check DataType**
 
 ```javascript
-name = "daanzo"
+let name = "daanzo"
 console.log(typeof(name))
 ```
 
