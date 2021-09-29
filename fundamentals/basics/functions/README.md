@@ -169,3 +169,30 @@ var A = /** @class */ (function () {
 var B = new A();
 console.log(B.setName("james"));
 ```
+
+**Chained Functions**
+
+```javascript
+const dog = {
+  is: null,
+  log: () => console.log(this.is),
+  bark() {
+    this.is = "woofing";
+    this.log();
+    return this;
+  },
+  walk() {
+    this.is = "walking";
+    this.log();
+    return this;
+  },
+  eat() {
+    this.is = "eating";
+    this.log();
+    return this;
+  }
+};
+
+// Functions Chain
+dog.bark().eat().walk();
+```
