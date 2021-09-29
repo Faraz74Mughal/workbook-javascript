@@ -1,6 +1,6 @@
 # Javascript - Fundamentals - Basics
 
-## Constants, Variables and DataTypes
+## Arithmetic Operators
 
 **Plus** `+`
 
