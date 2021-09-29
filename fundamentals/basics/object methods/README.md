@@ -47,3 +47,9 @@ const ball = {
     }
 }
 ```
+
+**Object Property Description**
+
+```javascript
+let descriptor = Object.getOwnPropertyDescriptor(user, 'name');
+```
