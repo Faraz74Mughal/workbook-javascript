@@ -36,10 +36,10 @@ try {
 
   if( x < 2 ) {
     throw new SyntaxError("X is less than 2")
-  } else if( x < 2 ) {
-    throw new ReferenceError("X is less than 2")
+  } else if( x > 2 ) {
+    throw new ReferenceError("X is greator than 2")
   } else {
-    throw new Error("X is 2")
+    throw new "X is 2"
   }
 }
 catch(err) {
@@ -55,6 +55,29 @@ catch(err) {
 }
 finally {
   console.log("Finish")
+}
+```
+
+**Custom Exceptions**
+
+```javascript
+class ValidationError extends Error {
+  constructor(message) {
+    super(message);
+    this.name = "ValidationError";
+  }
+}
+
+function test() {
+  throw new ValidationError("Whoops!");
+}
+
+try {
+  test();
+} catch(err) {
+  alert(err.message); // Whoops!
+  alert(err.name); // ValidationError
+  alert(err.stack); // a list of nested calls with line numbers for each
 }
 ```
 
