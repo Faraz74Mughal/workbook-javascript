@@ -73,7 +73,7 @@ console.log( rabbit.jumps );
 **Check if Property is Own or Inherted**
 
 ```javascript
-et animal = {
+let animal = {
   eats: true
 };
 
