@@ -9,7 +9,7 @@ let attacks = [
 ]
 
 let skills = [
-     "sharingan",
+    "sharingan",
     "magekeur sharingan",
 ]
 
