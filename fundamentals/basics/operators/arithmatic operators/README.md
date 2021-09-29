@@ -1,6 +1,6 @@
-# Javascript - Fundamentals - Basics
+# Javascript - Fundamentals - Basics - Operators
 
-## Arithmetic Operators
+##  Arithmetic Operators
 
 **Plus** `+`
 

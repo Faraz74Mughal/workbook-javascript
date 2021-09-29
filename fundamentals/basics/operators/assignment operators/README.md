@@ -1,4 +1,4 @@
-# Javascript - Fundamentals - Basics
+# Javascript - Fundamentals - Basics - Operators
 
 ## Assignment Operators
 
@@ -20,4 +20,7 @@ b *= a
 
 // Division and Assignment
 b /= c 
+
+// Remainder and Assignment
+b %= c 
 ```

@@ -1,4 +1,4 @@
-# Javascript - Fundamentals - Basics
+# Javascript - Fundamentals - Basics - Operators
 
 ## Equality and InEquality Operators
 
