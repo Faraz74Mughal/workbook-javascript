@@ -150,3 +150,22 @@ var book = new Book("Fiction", "Peter King");
 
 console.log(book.getDetails(), book.getType());
 ```
+
+**Functional Class**
+
+```javascript
+var A = /** @class */ (function () {
+    function A() {
+        console.log("Created !");
+    }
+    A.prototype.getName = function () {
+        return this.name;
+    };
+    A.prototype.setName = function (value) {
+        this.name = value;
+    };
+    return A;
+}());
+var B = new A();
+console.log(B.setName("james"));
+```
