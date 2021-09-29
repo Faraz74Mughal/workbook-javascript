@@ -60,11 +60,18 @@ class B extends A {
 let animal = {
   eats: true
 };
+
+const task = () => {
+  // Some Code Here
+}
+
 let rabbit = {
   jumps: true
 };
 
 rabbit.__proto__ = animal;
+
+Object.assign(rabbit.prototype, task);
 
 console.log( rabbit.eats );
 console.log( rabbit.jumps );
@@ -77,10 +84,16 @@ let animal = {
   eats: true
 };
 
+const task = () => {
+  // Some Code Here
+}
+
 let rabbit = {
   jumps: true,
   __proto__: animal
 };
+
+Object.assign(rabbit.prototype, task);
 
 for(let prop in rabbit) {
   let isOwn = rabbit.hasOwnProperty(prop);
