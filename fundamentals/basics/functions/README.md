@@ -39,7 +39,7 @@ action()
 `Syncronous`
 
 ```javascript
-const add = ( a, b ) => {
+const add = ( a = 0, b = 0 ) => {
     return a + b;
 }
 var x = add( 2, 7 );
@@ -61,4 +61,36 @@ const action = async () => {
 }
 
 action()
+```
+
+**Callback Functions**
+
+```javascript
+
+const first = ( cb = null ) => {
+  
+  console.log("First Method")
+
+  if( cb != null ) cb()
+}
+
+const second = () => {
+  console.log("Second Method")
+}
+
+first( second() )
+```
+
+**Anonymous Functions**
+
+```javascript
+// ES5
+(function(){
+  console.log("Hello world")
+})()
+
+// ES6
+(()=>{
+  console.log("Helo world")
+})()
 ```
