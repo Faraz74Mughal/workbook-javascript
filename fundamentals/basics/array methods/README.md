@@ -88,4 +88,18 @@ let matrix = [
 alert( matrix[1][1] ); // 5, the central element
 ```
 
+**Array/List Reductions using `Reduce`**
+
+```javascript
+array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
+```
+
+```javascript
+var array = [36, 25, 6, 15];
+
+array.reduce(function(accumulator, currentValue) {
+  return accumulator + currentValue;
+}, 0); // 36 + 25 + 6 + 15 = 82
+```
+
 
