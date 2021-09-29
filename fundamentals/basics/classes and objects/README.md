@@ -69,3 +69,102 @@ rabbit.__proto__ = animal;
 console.log( rabbit.eats );
 console.log( rabbit.jumps );
 ```
+
+**Check if Property is Own or Inherted**
+
+```javascript
+et animal = {
+  eats: true
+};
+
+let rabbit = {
+  jumps: true,
+  __proto__: animal
+};
+
+for(let prop in rabbit) {
+  let isOwn = rabbit.hasOwnProperty(prop);
+
+  if (isOwn) {
+    alert(`Our: ${prop}`);
+  } else {
+    alert(`Inherited: ${prop}`);
+  }
+}
+```
+
+**Access Modifiers**
+
+```javascript
+class CoffeeMachine {
+  
+  // Private
+  #name = null;
+
+  // Protected
+  _age = null
+
+  // Public
+  description = null
+
+  // Constructor
+  constructor(name=null,age=null,description=null) {
+    if(name && age && description) {
+      this.#name = name
+      this._age = age
+      this.description = description
+    } else {
+      throw new Error("Pass Complete & Correct Parameters to the Constrcutor")
+    }
+  }
+
+  getDetails(value) {
+    return `${this.#name} is ${this._age} and ${this.description}`
+  }
+}
+
+let coffeeMachine = new CoffeeMachine();
+```
+
+**Getter and Setters**
+
+```javascript
+class CoffeeMachine {
+  
+  // Private
+  #name = null;
+
+  // Protected
+  _age = null
+
+  // Public
+  description = null
+
+  // Constructor
+  constructor(name=null,age=null,description=null) {
+    if(name && age && description) {
+      this.#name = name
+      this._age = age
+      this.description = description
+    } else {
+      throw new Error("Pass Complete & Correct Parameters to the Constrcutor")
+    }
+  }
+
+  // Getter
+  get name() {
+    return this.#name;
+  }
+
+  // Setter
+  set name(value) {
+    this.#name = value;
+  }
+
+  getDetails(value) {
+    return `${this.#name} is ${this._age} and ${this.description}`
+  }
+}
+
+let coffeeMachine = new CoffeeMachine();
+```
