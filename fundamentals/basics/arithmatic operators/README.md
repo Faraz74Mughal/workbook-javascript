@@ -34,3 +34,33 @@ const x = a - b
 // Date Time Difference
 const y = c - d
 ```
+
+**Sterek** `*`
+
+```javascript
+let a = 9
+let b = 5.645
+
+// Product | Multiplication
+const x = a * b
+```
+
+**Slash** `/`
+
+```javascript
+let a = 10
+let b = 2
+
+// Division Quotient
+const x = a / b
+```
+
+**Percentage** `/`
+
+```javascript
+let a = 10
+let b = 3
+
+// Division Remainder | Modulus
+const x = a % b
+```
