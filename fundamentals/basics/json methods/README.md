@@ -35,6 +35,8 @@ const data = require("./data.json")
 console.log(data.employees)
 ```
 
+### JSON/JS Object Parsing & Stringifying
+
 **JS Object to Stringified Object**
 
 ```javascript
