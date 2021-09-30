@@ -6,9 +6,6 @@
 const playAudio = (file) =>
 	new Promise((resolve, reject) => resolve(new Audio(file)))
 		.then((audio) => {
-			audio.autoplay = false;
-			audio.loop = false;
-			audio.muted = false;
 			audio.volume = 0.2;
 			audio.playbackRate = 7;
 			return audio;
