@@ -1,3 +1,0 @@
-# Javascript - Fundamentals - Basics
-
-## Operators

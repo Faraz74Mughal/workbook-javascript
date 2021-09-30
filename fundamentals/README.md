@@ -1,1 +1,1 @@
-# Javascript - Fundamentals
+# Javascript - Fundamentals - Basics

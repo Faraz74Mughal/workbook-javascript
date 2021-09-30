@@ -1,25 +1,25 @@
-## Types of Javascript Injections
+# Javascript - Fundamentals
 
-- Inline
+## Inline
 
-```
+```javascript
 <button onclick="alert('Hello world');" > Press </button>
 ```
 
-- Internal
+## Internal
 
 With-in the same page
 
-```
+```javascript
 <srcipt type="text/javascript" >
     alert("Hello world");
 </script>
 ```
 
-- External
+## External
 
 External files links via `<script src="file.js" ></script>`
 
-```
+```javascript
 alert("Hello world");
 ```
