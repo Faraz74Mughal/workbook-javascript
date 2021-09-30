@@ -1,5 +1,3 @@
-const Launch = async () => {
-  console.log('Dom is Ready ...')
-}
+const caps = (text) => text[0].toUpperCase() + text.slice(1).toLowerCase();
 
-window.onload = Launch
+console.log(caps(word));
