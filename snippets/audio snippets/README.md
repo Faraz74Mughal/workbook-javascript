@@ -119,8 +119,11 @@ const AudioFilePlayer = {
 	},
 	clear: function() {
 		if (this.audio) {
-			this.audio = null;
-			this.ready = false;
+            this.audio.addEventListener("pause", () => {
+                this.audio = null;
+			    this.ready = false;
+                console.log("Audio Cleared")
+            });
 		} else console.log('Not Available');
 		return this;
 	}
@@ -150,4 +153,24 @@ beep.play()
 beep.info()
 beep.play()
 beep.clear()
+```
+
+## DOWNLOAD
+
+**LINUX** `workbook-javascript audio-file-player snippets/*`
+
+```cmd
+git clone https://github.com/ZaeemTarrar/workbook-html5.git ; ; rm -rf workbook-html5/.git ; cp -r "workbook-html5/project templates/semantics template/" "./workbook-html5 semantics template" ; rm -rf "workbook-html5" ; cd "workbook-html5 semantics template" ;
+```
+
+**MAC** `workbook-javascript audio-file-player snippets/*`
+
+```cmd
+git clone https://github.com/ZaeemTarrar/workbook-html5.git ; ; rm -rf workbook-html5/.git ; cp -r "workbook-html5/project templates/semantics template/" "./workbook-html5 semantics template" ; rm -rf "workbook-html5" ; cd "workbook-html5 semantics template" ;
+```
+
+**WINDOWS** `workbook-javascript audio-file-player snippets/*`
+
+```cmd
+git clone https://github.com/ZaeemTarrar/workbook-html5.git && cd workbook-html5 && del /Q .git && mkdir "../zaeem-html5" && move ".\project templates\semantics template\*" "..\zaeem-html5" && cd ../ && rmdir /s /q "workbook-html5" && rename "zaeem-html5" "workbook-html5 semantics template" && cd "workbook-html5 semantics template"
 ```
