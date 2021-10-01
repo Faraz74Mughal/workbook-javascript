@@ -28,10 +28,10 @@ playAudio("./sounds/abc.mp3")
 
 ```javascript
 const playAudio = (file) => {
-	const audio = new Audio(file);
+    const audio = new Audio(file);
     audio.volume = 0.2;
-	audio.playbackRate = 7;
-	audio.oncanplay = () => audio.play();
+    audio.playbackRate = 7;
+    audio.oncanplay = () => audio.play();
 };
 ```
 
