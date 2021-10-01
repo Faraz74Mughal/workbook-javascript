@@ -160,17 +160,17 @@ beep.clear()
 **LINUX** `workbook-javascript audio-file-player snippets/*`
 
 ```cmd
-git clone https://github.com/ZaeemTarrar/workbook-html5.git ; ; rm -rf workbook-html5/.git ; cp -r "workbook-html5/project templates/semantics template/" "./workbook-html5 semantics template" ; rm -rf "workbook-html5" ; cd "workbook-html5 semantics template" ;
+git clone https://github.com/ZaeemTarrar/workbook-javascript.git ; ; rm -rf workbook-javascript/.git ; cp -r "workbook-javascript/snippets/audio snippets/" "./workbook-javascript audio-file-player snippets" ; rm -rf "workbook-javascript" ; cd "workbook-javascript audio-file-player snippets" ;
 ```
 
 **MAC** `workbook-javascript audio-file-player snippets/*`
 
 ```cmd
-git clone https://github.com/ZaeemTarrar/workbook-html5.git ; ; rm -rf workbook-html5/.git ; cp -r "workbook-html5/project templates/semantics template/" "./workbook-html5 semantics template" ; rm -rf "workbook-html5" ; cd "workbook-html5 semantics template" ;
+git clone https://github.com/ZaeemTarrar/workbook-javascript.git ; ; rm -rf workbook-javascript/.git ; cp -r "workbook-javascript/snippets/audio snippets/" "./workbook-javascript audio-file-player snippets" ; rm -rf "workbook-javascript" ; cd "workbook-javascript audio-file-player snippets" ;
 ```
 
 **WINDOWS** `workbook-javascript audio-file-player snippets/*`
 
 ```cmd
-git clone https://github.com/ZaeemTarrar/workbook-html5.git && cd workbook-html5 && del /Q .git && mkdir "../zaeem-html5" && move ".\project templates\semantics template\*" "..\zaeem-html5" && cd ../ && rmdir /s /q "workbook-html5" && rename "zaeem-html5" "workbook-html5 semantics template" && cd "workbook-html5 semantics template"
+git clone https://github.com/ZaeemTarrar/workbook-javascript.git && cd workbook-javascript && del /Q .git && mkdir "../zaeem-javascript" && move ".\snippets\audio snippets\*" "..\zaeem-javascript" && cd ../ && rmdir /s /q "workbook-javascript" && rename "zaeem-javascript" "workbook-javascript audio-file-player snippets" && cd "workbook-javascript audio-file-player snippets"
 ```
